@@ -2,6 +2,11 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 header {
 	background-color: #fcfcfd;
 	padding: 1em;
@@ -20,7 +25,9 @@ li a {
 	color: #99A0B0;
 	text-transform: uppercase;
 	font-weight: 300;
-	padding: 1em 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-left: 3em;
 }
 
 main {
@@ -60,12 +67,24 @@ main h2:after {
 	color: #2B313E;
 }
 
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 2em;
+}
+
 .projects li {
 	background-color: #6F768B;
+	padding: 1em;
+	display: inline-block;
+	margin: 0.5em;
+	flex: 1;
 }
 
 section {
-	padding: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 section img {
