@@ -170,3 +170,44 @@ section h3 + p {
 	background-color: #579ff0;
 	font-weight: 500;
 }
+
+.social {
+	padding: 1em;
+}
+
+.social ul {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.social .icon {
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 48px;
+	height: 48px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#facebook {
+	background-image: url("images/facebook.png");
+}
+
+#twitter {
+	background-image: url("images/twitter.png");
+}
+
+#email {
+	background-image: url("images/email.png");
+}
+
+#github {
+	background-image: url("images/github.png");
+}
+
+#linkedin {
+	background-image: url("images/linkedin.png");
+}
