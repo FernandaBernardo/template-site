@@ -76,31 +76,6 @@ main h2:after {
 	color: #2B313E;
 }
 
-.projects {
-	margin-top: 2em;
-}
-
-.projects li {
-	background-color: #6F768B;
-	padding: 1em;
-	display: inline-block;
-	margin: 0.5em;
-}
-
-.projects li a {
-	font-size: 1.3em;
-	color: #fff;
-	text-align: center;
-	display: inline-block;
-	margin-bottom: 0.5em;
-}
-
-.projects li p {
-	color: #d2d6e2;
-	text-align: justify;
-	line-height: 1.2;
-}
-
 section {
 	padding-top: 2em;
 	padding-bottom: 2em;
@@ -128,4 +103,44 @@ section h3 + p {
 	font-size: 0.9em;
 	padding-top: 0.5em;
 	padding-bottom: 1em;
+}
+
+.projects {
+	margin-top: 2em;
+}
+
+.projects li {
+	background-color: #6F768B;
+	padding: 1em;
+	display: block;
+	max-width: 80%;
+	margin: 2em auto;
+}
+
+.projects li a {
+	font-size: 1.3em;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 0.5em;
+}
+
+.projects li p {
+	color: #d2d6e2;
+	text-align: justify;
+	line-height: 1.2;
+}
+
+.about .bio {
+	color: #579ff0;
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.about p:not(:first-of-type) {
+	text-align: justify;
+	line-height: 1.2;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
