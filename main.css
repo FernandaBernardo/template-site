@@ -8,6 +8,10 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 .container {
 	padding-left: 10%;
 	padding-right: 10%;
@@ -22,12 +26,11 @@ header ul {
 	text-align: right;
 }
 
-li {
+header li {
 	display: inline-block;
 }
 
-li a {
-	text-decoration: none;
+header li a {
 	color: #99A0B0;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -74,9 +77,6 @@ main h2:after {
 }
 
 .projects {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
 	margin-top: 2em;
 }
 
@@ -85,7 +85,20 @@ main h2:after {
 	padding: 1em;
 	display: inline-block;
 	margin: 0.5em;
-	flex: 1;
+}
+
+.projects li a {
+	font-size: 1.3em;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 0.5em;
+}
+
+.projects li p {
+	color: #d2d6e2;
+	text-align: justify;
+	line-height: 1.2;
 }
 
 section {
