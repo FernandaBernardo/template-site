@@ -176,16 +176,14 @@ section h3 + p {
 }
 
 .social ul {
-	width: 70%;
-	margin: 0 auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .social .icon {
 	text-indent: -9999px;
 	background-repeat: no-repeat;
-	background-size: contain;
 	width: 48px;
 	height: 48px;
 	margin-left: 1em;
