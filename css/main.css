@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.dark {
+	background-color: #2B313E;
+	color: #fcfcfd;
+}
+
+.light {
+	background-color: #fcfcfd;
+	color: #2B313E;
+}
+
+header {
+	background-color: #fcfcfd;
+	padding: 1em;
+	position: fixed;
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 3em;
+}
+
+header ul {
+	text-align: right;
+}
+
+header li {
+	display: inline-block;
+}
+
+header li a {
+	color: #99A0B0;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-left: 3em;
+}
+
+.social ul {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.social .icon {
+	display: inline-block;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#facebook {
+	background-image: url("../images/facebook.png");
+}
+
+#twitter {
+	background-image: url("../images/twitter.png");
+}
+
+#email {
+	background-image: url("../images/email.png");
+}
+
+#github {
+	background-image: url("../images/github.png");
+}
+
+#linkedin {
+	background-image: url("../images/linkedin.png");
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
