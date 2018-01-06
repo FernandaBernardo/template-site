@@ -10,9 +10,18 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 header {
-	background-color: #fcfcfd;
-	padding: 1em;
+    background-color: #fcfcfd;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    border: 1px solid #ccc;
 }
 
 header ul {
@@ -33,7 +42,7 @@ header li a {
 }
 
 .post-container {
-    padding: 1em 15%;
+    padding: 4em 15% 1em;
     background-color: #2B313E;
 }
 
