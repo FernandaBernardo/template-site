@@ -16,11 +16,15 @@
     line-height: 1.2;
 }
 
-.post-card .post-meta, .post-card .post-meta a {
+.post-card .post-meta {
     color: #888;
     font-weight: 300;
     font-size: 0.9em;
     margin-top: 0.5em;
+}
+
+.post-card .post-meta a {
+    color: #888;
 }
 
 .post-card .description {
