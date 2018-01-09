@@ -1,17 +1,16 @@
-
-main {
+.identity {
 	background-color: #579ff0;
 	color: #fcfcfd;
 	padding: 10em 2em 7em;
 	text-align: center;
 }
 
-main h1 {
+.identity h1 {
 	font-size: 2.5em;
 	margin-bottom: 0.7em;
 }
 
-main h2 {
+.identity h2 {
 	font-weight: 300;
 	font-size: 1.5em;
 }
