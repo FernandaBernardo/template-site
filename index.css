@@ -1,3 +1,11 @@
 h1 {
 	color: red;
 }
+
+.projects li {
+	background-color: gray;
+}
+
+#sobre p.bio {
+	background-color: blue;
+}
