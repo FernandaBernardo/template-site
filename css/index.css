@@ -29,11 +29,7 @@ section img {
 section h3 {
 	text-transform: uppercase;
 	font-size: 1.7em;
-}
-
-section h3 + p {
-	font-size: 0.9em;
-	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 #projetos.container {

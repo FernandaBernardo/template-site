@@ -26,7 +26,6 @@ a {
 }
 
 header {
-	background-color: #fcfcfd;
 	padding: 1em;
 	position: fixed;
 	width: 100%;
@@ -43,12 +42,12 @@ header li {
 }
 
 header li a {
-	color: #99A0B0;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: lighter;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	margin-left: 3em;
+	color: #99A0B0;
 }
 
 .social ul {
