@@ -24,6 +24,7 @@ body {
 section {
 	padding-top: 2em;
 	padding-bottom: 2em;
+	text-align: center;
 }
 
 section h3 {
@@ -43,6 +44,10 @@ header {
 	position: fixed;
 	width: 100%;
 	height: 3em;
+}
+
+header ul {
+	text-align: right;
 }
 
 header li {
@@ -98,6 +103,7 @@ header li a {
 .projects li p {
 	color: #d2d6e2;
 	margin-top: 0.5em;
+	text-align: justify;
 }
 
 #sobre {
@@ -114,6 +120,7 @@ header li a {
 #sobre p.text {
 	margin: 1em;
 	width: 50%;
+	text-align: justify;
 }
 
 #sobre img {
