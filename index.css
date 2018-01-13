@@ -31,6 +31,11 @@ section h3 {
 	margin-bottom: 0.5em;
 }
 
+section img {
+	width: 100%;
+	max-width: 300px;
+}
+
 header {
 	border-bottom: 1px solid #ccc;
 	padding-top: 1em;
@@ -61,6 +66,19 @@ header li a {
 .identity h2 {
 	font-size: 1.5em;
 	font-weight: 300;
+}
+
+.projects-header {
+	float: left;
+	width: 30%;
+}
+
+.projects-header h3 {
+	margin-top: 1em;
+}
+
+.projects {
+	margin-left: 40%;
 }
 
 .projects li {
