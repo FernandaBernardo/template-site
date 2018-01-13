@@ -1,3 +1,7 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
 .dark {
 	background-color: #2B313E;
 	color: #fcfcfd;
@@ -8,13 +12,27 @@
 	color: #2B313E;
 }
 
+section h3 {
+	font-size: 1.7em;
+}
+
 header li a {
 	color: #99A0B0;
+	font-weight: lighter;
 }
 
 .identity {
 	background-color: #579ff0;
 	color: #fcfcfd;
+}
+
+.identity h1 {
+	font-size: 2.5em;
+}
+
+.identity h2 {
+	font-size: 1.5em;
+	font-weight: 300;
 }
 
 .projects li {
@@ -23,6 +41,7 @@ header li a {
 
 .projects li a {
 	color: #fff;
+	font-size: 1.3em;
 }
 
 .projects li p {
@@ -31,4 +50,9 @@ header li a {
 
 #sobre p.bio {
 	color: #579ff0;
+	font-size: 1.5em;
+}
+
+#sobre img {
+	width: 200px;
 }
