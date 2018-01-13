@@ -107,8 +107,13 @@ header li a {
 	margin: 1em;
 }
 
+#sobre p.bio, #sobre p.text {
+	width: 50%;
+}
+
 #sobre img {
 	width: 200px;
+	float: right;
 }
 
 #contato li {
