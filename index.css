@@ -97,23 +97,28 @@ header li a {
 	margin-top: 0.5em;
 }
 
+#sobre {
+	position: relative;
+}
+
 #sobre p.bio {
 	color: #579ff0;
 	font-size: 1.5em;
 	margin: 1em;
+	width: 50%;
 }
 
 #sobre p.text {
 	margin: 1em;
-}
-
-#sobre p.bio, #sobre p.text {
 	width: 50%;
 }
 
 #sobre img {
 	width: 200px;
-	float: right;
+	position: absolute;
+	top: 2em;
+	right: 10%;
+
 }
 
 #contato li {
