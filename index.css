@@ -30,6 +30,7 @@ section {
 section h3 {
 	font-size: 1.7em;
 	margin-bottom: 0.5em;
+	text-transform: uppercase;
 }
 
 section img {
@@ -58,6 +59,7 @@ header li {
 header li a {
 	color: #99A0B0;
 	font-weight: lighter;
+	text-transform: uppercase;
 }
 
 .identity {
