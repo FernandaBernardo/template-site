@@ -10,11 +10,6 @@ a {
 	text-decoration: none;
 }
 
-.container {
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
 .dark {
 	background-color: #2B313E;
 	color: #fcfcfd;
@@ -25,11 +20,17 @@ a {
 	color: #2B313E;
 }
 
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 header {
-	padding: 1em;
+	border-bottom: 1px solid #ccc;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	position: fixed;
 	width: 100%;
-	border: 1px solid #ccc;
 	height: 3em;
 }
 
@@ -39,50 +40,40 @@ header ul {
 
 header li {
 	display: inline-block;
+	margin-left: 3em;
 }
 
 header li a {
-	text-transform: uppercase;
-	font-weight: lighter;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin-left: 3em;
 	color: #99A0B0;
+	font-weight: lighter;
+	text-transform: uppercase;
 }
 
-.social ul {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	text-align: center;
-}
-
-.social .icon {
+#contato li {
 	display: inline-block;
-	text-indent: -9999px;
-	background-repeat: no-repeat;
+	margin: 1em;
 	width: 48px;
 	height: 48px;
-	margin-left: 1em;
-	margin-right: 1em;
+	text-indent: -9999px;
 }
 
-#facebook {
-	background-image: url("../images/facebook.png");
-}
-
-#twitter {
-	background-image: url("../images/twitter.png");
-}
-
-#email {
+#contato .email {
 	background-image: url("../images/email.png");
 }
 
-#github {
+#contato .facebook {
+	background-image: url("../images/facebook.png");
+}
+
+#contato .github {
 	background-image: url("../images/github.png");
 }
 
-#linkedin {
+#contato .twitter {
+	background-image: url("../images/twitter.png");
+}
+
+#contato .linkedin {
 	background-image: url("../images/linkedin.png");
 }
 
