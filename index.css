@@ -110,6 +110,7 @@ header li a {
 	color: #d2d6e2;
 	margin-top: 0.5em;
 	text-align: justify;
+	line-height: 1.2;
 }
 
 #sobre {
@@ -127,6 +128,7 @@ header li a {
 	margin: 1em;
 	width: 50%;
 	text-align: justify;
+	line-height: 1.4;
 }
 
 #sobre img {
@@ -140,6 +142,29 @@ header li a {
 #contato li {
 	display: inline-block;
 	margin: 1em;
+	width: 48px;
+	height: 48px;
+	text-indent: -9999px;
+}
+
+#contato .email {
+	background-image: url("./email.png");
+}
+
+#contato .facebook {
+	background-image: url("./facebook.png");
+}
+
+#contato .github {
+	background-image: url("./github.png");
+}
+
+#contato .twitter {
+	background-image: url("./twitter.png");
+}
+
+#contato .linkedin {
+	background-image: url("./linkedin.png");
 }
 
 footer {
